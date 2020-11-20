@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
     <title>《未尽之意》小说连载</title>
-    <updated>2020-11-20T09:16:47.073Z</updated>
+    <updated>2020-11-20T09:23:49.032Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 《未尽之意》小说连载</rights>
+    <entry>
+        <title type="html"><![CDATA[第七章 组织（三）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C07-03/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C07-03/">
+        </link>
+        <updated>2020-11-20T09:22:47.000Z</updated>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://akino2020.github.io/post-images/1605864190490.jpg" alt="" loading="lazy"></figure>
+]]></summary>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://akino2020.github.io/post-images/1605864190490.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第七章 组织（二）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C07-02/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C07-02/">
+        </link>
+        <updated>2020-11-20T09:21:36.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第七章 组织（一）]]></title>
         <id>https://akino2020.github.io/post/WJZY-C07-S1/</id>
@@ -65,12 +83,5 @@
         <link href="https://akino2020.github.io/post/WJZY-C01/">
         </link>
         <updated>2020-11-20T01:07:29.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[序章]]></title>
-        <id>https://akino2020.github.io/post/pre/</id>
-        <link href="https://akino2020.github.io/post/pre/">
-        </link>
-        <updated>2020-11-20T01:02:30.000Z</updated>
     </entry>
 </feed>
