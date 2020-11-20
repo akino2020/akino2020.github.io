@@ -8,7 +8,7 @@
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="荒唐喜乐皆是过往">
 <meta name="theme-color" content="#000">
-<title>《未尽之意》小说连载</title>
+<title>第五章 玩闹 | 《未尽之意》小说连载</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1605843648199">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
@@ -38,6 +38,8 @@
 
 
 
+  <meta name="description" content="第五章 玩闹" />
+  <meta name="keywords" content="" />
 </head>
 
 <body>
@@ -170,10 +172,25 @@
   <div class="main-continer">
     
     <div
-      class="section-layout  gemini">
+      class="section-layout gemini ">
       <div class="section-layout-wrapper">
-        <div id="sidebarMeta" class="sidebar">
-    
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active language" data-lan="index">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item language" data-lan="preview">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+            
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -209,94 +226,201 @@
 
 
 </div>
+          
+        
+      </div>
+    </div>
+  
 </div>
 <script>
-  let sidebarMeta = document.querySelector('#sidebarMeta');
-  let scheme = 'gemini';
-  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
-  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
-    document.addEventListener('scroll', function(e) {
-      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
-        sidebarWrapper.classList.add('home-sidebar-fixed')
-      } else {
-        sidebarWrapper.classList.remove('home-sidebar-fixed')
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
       }
-    });
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
   }
-  </script>
-        <div class="section-box tag-line box-shadow-wrapper">
-          <section class="section tags-section posts-expand bg-color">
-            <div class="padding-wrapper">
-  <div class="tag-timeline-box">
-    <div class="tag-timeline-wrapper">
-      <div class="tag-timeline-title">
-        <h2>
-          体检
-          <small class="language" data-lan="tag">标签</small>
-        </h2>
-      </div>
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://akino2020.github.io/post/di-wu-zhang-wan-nao/">
+      第五章 玩闹
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-11-20 11:39:54">2020-11-20</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>6<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>1626<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+            <div class="post-body next-md-body" id="post_body">
+              <p><strong>《未尽之意》——喜乐荒唐过往的纪念，作者秋野</strong></p>
+<p>   /黄瓜/<br>
+   九月底，天气还多少有些热。<br>
+   下午下课后，胡连明和林宽、闫小兵加上我四个人去学校附近小公园走了一圈。回来路过居民区菜市场，胡连明说天干，买点水果一类的吃，我们仨都同意。于是，苹果、西红柿、黄瓜、猕猴桃，我们买了些，装了一兜。<br>
+   3号教学楼，自习室卫生间门口，水哗哗地响。<br>
+    “今天买的西红柿还可以，不酸。”我说。<br>
+    “猕猴桃有点生，回去和苹果再搁一块放一放，会软些。”闫小兵说。<br>
+    “兵儿，男人不能软~”胡连明对着小兵笑。<br>
+    “明哥，你……你不要太骚”小兵慢吞吞忍不住笑地回。<br>
+   这时，胡连明忽然把洗好的黄瓜，放在肚脐以下，双手扶着还TM交替捋着，“宽宽，你看我的大不大，大不大？”胡连明直冲冲地对着林宽说。<br>
+    “咳……靠，明哥你……”宽宽刚咬了一口苹果，被胡连明突然来这么一下，噎得喷了出来。<br>
+   谁知道俩贱货在对话的时候，有个女生恰巧从右边卫生间走出来，本来正准备洗手，却不幸目睹了整个骚气的过程。小兵本意提醒明哥，可已经来不及了。<br>
+   眼见女生扭头逃走。我和小兵对视一笑。“噗，哈哈哈哈哈哈”<br>
+   一边的胡连明，已经憋得一脸通红。<br>
+   后来想想，对于老二的情结，普天之下何止一个。</p>
+<p>   /发小/<br>
+   表弟小叔龙龙连年留级，甚至有一年和我同班。学业实在太差，后来他干脆辍学。18岁那年，去当了兵。很长一段时间见不到他，本来以为没有他什么消息了。结果我高中毕业后有天亲戚一起吃饭，大表弟悄悄地走过来说了一件事。<br>
+    “你记得我小叔龙龙小时候好玩自己街霸吧”大表弟问。<br>
+    “呀！知道，我看见过他在那弄，但没告诉别人。”没想到表弟知道我知道这事。<br>
+    “哼哼哼……哈哈哈，他现在不敢玩了。”表弟说，“你不知道，他寄吧一直没再长，到现在还和小孩一样。”<br>
+    “不会吧，我老天爷啊？！”我很惊讶。<br>
+    “昂，医生说他这种没得治了”表弟冷静的说，“唉，他复员回来，女朋友谈一个吹一个，以后也不知道该咋办。”<br>
+   我至今无法想象究竟什么样的玩法，可以让一个人的那里几乎停止生长。不过，有时候坏孩子就是有魅力。龙龙之前的小弟很多，我俩表弟也是对他非常崇拜。至于我，虽然有点怕他，但也是喜欢他的。<br>
+   物以类聚，人以群分。龙龙有个死党发小，住在他们家斜对门，那个小子和龙龙似乎有同样的爱好，只不过形式不同。他死党长得非常白，我们那时候都叫他白少爷。<br>
+   五年级有个夏天中午，我在大姑家吃饭。刚过一点，一身花裤花衫的白少爷拿了个带小马达小风扇进了大姑家院子，大步走进堂屋。<br>
+    “你小叔呢？”白少爷问我大表弟。<br>
+    “叔，你媳妇儿来了！”大表弟笑着朝屋里喊。<br>
+    “妈那个脚，只有我这么喊，你们鳖蛋孩子谁再洁宝喊，腿给你们打折。”小龙叔从里屋走出来骂了一句。<br>
+    “滚你M的，谁叫你喊我媳妇儿”白少爷故作面色狰狞的怼了一句。<br>
+    “那谁叫你长得白嘞，哈哈”小龙叔大笑，“MD，能给你热死还是咋，还拿个小风扇。”<br>
+    “老子就是快热死啦，不吹风不舒服，来！你也凉快凉快”说着，风扇往小龙叔脸上靠。<br>
+    “诶，这风还不小。”小龙叔说。<br>
+    “你好好闻闻，香不香”白少爷邪魅地问着。<br>
+    “香？没啥香啊？”龙龙嗅嗅。<br>
+    “没闻到街霸 气儿？我刚才一直在吹底下，哈哈哈”白少爷狂笑。<br>
+    “我日你爹一回！”小龙叔一脚就要跺过去。</p>
+<p>   /白赖/<br>
+   白少爷在我上初二时，也留级到了我们班。只待了半个学期就辍学了。但他在学校的期间，赖事可没少办。<br>
+   他堂而皇之在班上几乎摸了所有男生的挤吧，然后根据手摸所感触的形状，给男生们取了各种外号：小黄瓜、小茄子、小辣椒、小火腿肠……我自然也不能幸免于难。我是课代表，有天在发英语作业时，站在他桌子前。他突然起身，站我侧边，一把抓住我下面，揉了好几揉，猥琐地说：“树叶儿，长了啊，变大了，哈哈哈”。我本来就腼腆（外在腼腆），被他整的脸憋红。发完作业，就气的赶紧找出抹布，跑到厕所，用水蘸湿把他刚才抓的地方擦了几遍，觉得他的手脏，恶心。<br>
+   天冷的时候，有个同学摔了一跤，不能下地走路。班主任安排白少爷带头，每天下课搀扶这个同学去上厕所。本来好好的事情，楞是让白少爷搞得乌烟瘴气。<br>
+   他每次都威胁吆喝好几个男生，连抬带扶，把人送进卫生间。下来才是重头戏，他会点一支烟，要看每个人撒尿，而且要检查瞎踢发育情况。班上有个白白壮壮的孩子高栋梁非常不幸，几乎每次都被白少爷叫去帮忙。而且每次都被白少爷调戏。只因为高栋梁比我们都发育的快，银猫已经比较丰富了，而且第二杏征也有些明显。白少爷每次都要摸，隔三差五还要拔下一根毛，用一片作业本纸包好。回到教室后，白少爷会把包着毛的纸包掏出来，拿到一个女生前，悠悠地说：看，高栋梁的，这孩子吉巴可大了。羞得好些女生趴桌子不敢抬头，都快哭了。<br>
+   白少爷后来也想去当兵，但体检不合格。他看似整天耀武扬威，流氓不羁的。其实身体素质很差。至于后来怎么样，我也不得而知了。</p>
+
+            </div>
+            
+            
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong class="language" data-lan="author">本文作者：</strong>
+      秋野
+    </li>
+    <li class="post-copyright-link">
+      <strong class="language" data-lan="link">本文链接：</strong>
+      <a href="https://akino2020.github.io/post/di-wu-zhang-wan-nao/" title="第五章 玩闹">https://akino2020.github.io/post/di-wu-zhang-wan-nao/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong class="language" data-lan="copyright">版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
       
+    </div>
+    <div class="nav-next">
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <a href="https://akino2020.github.io/post/WJZY-C02/">
-        <div class="motion-warpper">
-          <div class="tag-post-node">
-            <h1>
-              11-20
-              <small>第二章 军训</small>
-            </h1>
-          </div>
-        </div>
-      </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+        <a class="nav-pc-next" title="第四章 情结" href="https://akino2020.github.io/post/WJZY-C04/">第四章 情结</a>
+        <a class="nav-mobile-next" title="第四章 情结" href="https://akino2020.github.io/post/WJZY-C04/">下一篇</a>
+        <i class="fa fa-chevron-right"></i>
       
     </div>
   </div>
 </div>
-          </section>
+            
+            
+  
+
+          </div>
         </div>
       </div>
     </div>
@@ -483,6 +607,253 @@
   }
 
 </script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px;border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+    <div class="reward-mask" style="display: none;">
+  <div class="reward-relative">
+    <span class="close" aria-hidden="true">x</span>
+    <div class="reward-body">
+      <h2>感谢您的支持，我会继续努力的!</h2>
+      <div class="reward-img-box">
+        <div style="position: relative; width: 140px; height: 140px;">
+          
+          
+          
+        </div>
+      </div>
+      <p class="reward-word">扫码打赏，你说多少就多少</p>
+      <p class="reward-tip">打开微信扫一扫，即可进行扫码打赏哦</p>
+    </div>
+    <div class="bottom">
+      
+      
+    </div>
+  </div>
+</div>
+<style>
+  .reward-mask {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000054;
+  }
+
+  .reward-relative {
+    position: relative;
+    width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 50%;
+    margin-top: -205px;
+  }
+
+  .reward-relative .close {
+    position: absolute;
+    right: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #929292;
+  }
+
+  .reward-body {
+    padding: 40px 20px 20px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .reward-btn {
+    text-align: center;
+  }
+
+  .reward-btn-text {
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #ff9734;
+    color: #FFF;
+    margin-top: 20px;
+  }
+
+  .pay-text {
+    margin-top: 10px;
+    padding: 10px;
+    flex: 1;
+    transition: all .2s linear;
+  }
+
+  .pay-text:hover {
+    background-color: #a5a5a536;
+  }
+
+  .reward-body h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 20px;
+  }
+
+  .reward-body h2:after,
+  .reward-body h2:before {
+    font-family: Arial, Helvetica, sans-serif;
+    background: 0 0;
+    width: 0;
+    height: 0;
+    font-style: normal;
+    color: #eee;
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .reward-body h2:before {
+    content: '\201c';
+    left: 50px;
+  }
+
+  .reward-body h2:after {
+    content: '\201d';
+    right: 80px;
+  }
+
+  .reward-img-box {
+    display: inline-block;
+    padding: 10px;
+    border: 6px solid #ea5f00;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+  }
+
+  .reward-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .reward-relative {
+      height: 100%;
+      top: 0px;
+      margin-top: 0;
+      width: auto;
+    }
+
+    .reward-relative .bottom {
+      flex-direction: column;
+    }
+
+    .reward-relative .pay-text {
+      width: 80%;
+      margin: 5px auto;
+      border: 1px solid silver;
+      padding: 6px;
+      border-radius: 4px;
+    }
+
+    .reward-body h2:after {
+      right: 40px;
+    }
+
+    .reward-body h2:after,
+    .reward-body h2:before {
+      font-size: 60px;
+    }
+
+    .reward-body h2:before {
+      left: 20px;
+    }
+  }
+</style>
+<script>
+  !function () {
+    var mask = document.querySelector('.reward-mask');
+    let close = document.querySelector('.reward-relative .close');
+    let rewardBtn = document.querySelector('.reward-btn');
+
+    let zfb = document.querySelector('#zfb'),
+      wx = document.querySelector('#wx'),
+      zfbBtn = document.querySelector('#zfbBtn'),
+      wxBtn = document.querySelector('#wxBtn');
+
+    if (zfbBtn && wxBtn) {
+      zfbBtn.addEventListener('click', () => {
+        window.Velocity(zfb, 'transition.slideLeftIn', {
+          duration: 400
+        });
+        window.Velocity(wx, 'transition.slideRightOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+
+      wxBtn.addEventListener('click', () => {
+        window.Velocity(wx, 'transition.slideRightIn', {
+          duration: 400
+        });
+        window.Velocity(zfb, 'transition.slideLeftOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+    }
+
+    rewardBtn.addEventListener('click', (e) => {
+      window.Velocity(mask, 'transition.slideDownIn', {
+        duration: 400
+      })
+    });
+
+    close.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.Velocity(mask, 'transition.slideUpOut', {
+        duration: 400
+      })
+    })
+  }()
+</script>
+
   </div>
 </body>
 
@@ -996,7 +1367,6 @@
     speed: 200
   });
 </script>
-
 
 
 
