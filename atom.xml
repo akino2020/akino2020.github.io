@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
     <title>《未尽之意》小说连载</title>
-    <updated>2020-11-20T13:50:23.398Z</updated>
+    <updated>2020-11-21T06:07:40.680Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 《未尽之意》小说连载</rights>
+    <entry>
+        <title type="html"><![CDATA[【涨姿势了】文章评论怎么用？]]></title>
+        <id>https://akino2020.github.io/post/zhang-zi-shi-liao-wen-zhang-ping-lun-zen-me-yong/</id>
+        <link href="https://akino2020.github.io/post/zhang-zi-shi-liao-wen-zhang-ping-lun-zen-me-yong/">
+        </link>
+        <updated>2020-11-21T05:51:29.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第二十一章 奇趣（三）]]></title>
         <id>https://akino2020.github.io/post/WJZY-C21-3/</id>
@@ -72,12 +79,5 @@
         <link href="https://akino2020.github.io/post/WJZY-C19-1/">
         </link>
         <updated>2020-11-20T10:49:15.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第十八章 尝试（三）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C18-3/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C18-3/">
-        </link>
-        <updated>2020-11-20T10:45:22.000Z</updated>
     </entry>
 </feed>
