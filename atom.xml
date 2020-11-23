@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
     <title>《未尽之意》小说连载</title>
-    <updated>2020-11-23T02:26:10.496Z</updated>
+    <updated>2020-11-23T04:21:24.849Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 《未尽之意》小说连载</rights>
+    <entry>
+        <title type="html"><![CDATA[第二十三章 妖孽（一）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C23-1/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C23-1/">
+        </link>
+        <updated>2020-11-23T04:14:21.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第二十三章 妖孽（一）]]></title>
+        <id>https://akino2020.github.io/post/di-er-shi-san-zhang-yao-nie-yi/</id>
+        <link href="https://akino2020.github.io/post/di-er-shi-san-zhang-yao-nie-yi/">
+        </link>
+        <updated>2020-11-23T04:14:21.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第二十二章 撒野（三）]]></title>
         <id>https://akino2020.github.io/post/WJZY-C22-3/</id>
@@ -65,19 +79,5 @@
         <link href="https://akino2020.github.io/post/WJZY-C20-3/">
         </link>
         <updated>2020-11-20T11:00:10.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十章 微澜（二）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C20-2/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C20-2/">
-        </link>
-        <updated>2020-11-20T10:57:04.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十章 微澜（一）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C20-1/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C20-1/">
-        </link>
-        <updated>2020-11-20T10:56:08.000Z</updated>
     </entry>
 </feed>
