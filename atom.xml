@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
     <title>《未尽之意》小说连载</title>
-    <updated>2020-11-23T07:41:20.683Z</updated>
+    <updated>2020-11-24T01:57:37.755Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 《未尽之意》小说连载</rights>
+    <entry>
+        <title type="html"><![CDATA[第二十四章 幽美（三）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C24-3/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C24-3/">
+        </link>
+        <updated>2020-11-24T01:55:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第二十四章 幽乐（二）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C24-2/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C24-2/">
+        </link>
+        <updated>2020-11-24T01:53:56.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第二十四章 幽乐（一）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C24-1/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C24-1/">
+        </link>
+        <updated>2020-11-24T01:50:31.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ 第二十三章 暧昧（下）]]></title>
         <id>https://akino2020.github.io/post/WJZY-C23-2/</id>
@@ -58,26 +79,5 @@
         <link href="https://akino2020.github.io/post/WJZY-C21-3/">
         </link>
         <updated>2020-11-20T11:08:40.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十一章 奇趣（二）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C21-2/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C21-2/">
-        </link>
-        <updated>2020-11-20T11:07:39.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十一章 奇趣（一）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C21-1/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C21-1/">
-        </link>
-        <updated>2020-11-20T11:06:59.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十章 微澜（三）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C20-3/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C20-3/">
-        </link>
-        <updated>2020-11-20T11:00:10.000Z</updated>
     </entry>
 </feed>
