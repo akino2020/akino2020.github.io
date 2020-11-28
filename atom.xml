@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
     <title>《未尽之意》小说连载</title>
-    <updated>2020-11-27T04:13:44.214Z</updated>
+    <updated>2020-11-28T07:09:27.622Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 《未尽之意》小说连载</rights>
+    <entry>
+        <title type="html"><![CDATA[第二十八章 关心（三）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C28-3/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C28-3/">
+        </link>
+        <updated>2020-11-28T07:02:15.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第二十八章 关心（二）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C28-2/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C28-2/">
+        </link>
+        <updated>2020-11-28T07:00:16.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第二十八章 关心（一）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C28-1/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C28-1/">
+        </link>
+        <updated>2020-11-28T06:53:41.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第二十七章 妖怪（三）]]></title>
         <id>https://akino2020.github.io/post/WJZY-C27-3/</id>
@@ -58,26 +79,5 @@
         <link href="https://akino2020.github.io/post/WJZY-C25-3/">
         </link>
         <updated>2020-11-25T01:09:18.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十五章 春色（二）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C25-2/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C25-2/">
-        </link>
-        <updated>2020-11-25T01:07:38.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十五章 春色（一）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C25-1/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C25-1/">
-        </link>
-        <updated>2020-11-25T01:06:27.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十四章 幽乐（三）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C24-3/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C24-3/">
-        </link>
-        <updated>2020-11-24T01:55:19.000Z</updated>
     </entry>
 </feed>
