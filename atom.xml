@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
     <title>《未尽之意》小说连载</title>
-    <updated>2020-12-01T01:47:52.687Z</updated>
+    <updated>2020-12-01T02:56:51.145Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 《未尽之意》小说连载</rights>
+    <entry>
+        <title type="html"><![CDATA[【拾遗篇】No.2]]></title>
+        <id>https://akino2020.github.io/post/WJZY-SYP-2/</id>
+        <link href="https://akino2020.github.io/post/WJZY-SYP-2/">
+        </link>
+        <updated>2020-12-01T02:49:39.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【拾遗篇】No.1]]></title>
+        <id>https://akino2020.github.io/post/WJZY-SYP-1/</id>
+        <link href="https://akino2020.github.io/post/WJZY-SYP-1/">
+        </link>
+        <updated>2020-12-01T02:44:46.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[尾声 （三）]]></title>
         <id>https://akino2020.github.io/post/WJZY-WS-3/</id>
@@ -65,19 +79,5 @@
         <link href="https://akino2020.github.io/post/WJZY-C29-2/">
         </link>
         <updated>2020-11-29T02:13:39.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十九章 毕业（一）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C29-1/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C29-1/">
-        </link>
-        <updated>2020-11-29T01:46:13.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第二十八章 关心（三）]]></title>
-        <id>https://akino2020.github.io/post/WJZY-C28-3/</id>
-        <link href="https://akino2020.github.io/post/WJZY-C28-3/">
-        </link>
-        <updated>2020-11-28T07:02:15.000Z</updated>
     </entry>
 </feed>
