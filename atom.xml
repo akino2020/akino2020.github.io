@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
     <title>杨秋叶的小说集</title>
-    <updated>2021-01-28T01:04:16.917Z</updated>
+    <updated>2021-01-29T02:41:53.852Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
@@ -10,27 +10,6 @@
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 杨秋叶的小说集</rights>
-    <entry>
-        <title type="html"><![CDATA[《无与人说》第01章 服从（下）]]></title>
-        <id>https://akino2020.github.io/post/WYRS-01-B/</id>
-        <link href="https://akino2020.github.io/post/WYRS-01-B/">
-        </link>
-        <updated>2021-01-28T00:58:55.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《无与人说》 第01章 服从（上）]]></title>
-        <id>https://akino2020.github.io/post/WYRS-01-A/</id>
-        <link href="https://akino2020.github.io/post/WYRS-01-A/">
-        </link>
-        <updated>2021-01-27T04:24:59.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【上新】《无与人说》序章]]></title>
-        <id>https://akino2020.github.io/post/WYRS-XZ/</id>
-        <link href="https://akino2020.github.io/post/WYRS-XZ/">
-        </link>
-        <updated>2021-01-27T04:20:07.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[《未尽之意》【拾遗篇】No.2]]></title>
         <id>https://akino2020.github.io/post/WJZY-SYP-2/</id>
@@ -79,5 +58,26 @@
         <link href="https://akino2020.github.io/post/WJZY-C30-2/">
         </link>
         <updated>2020-11-30T00:45:58.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《未尽之意》第三十章 告别（一）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C30-1/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C30-1/">
+        </link>
+        <updated>2020-11-30T00:37:50.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《未尽之意》第二十九章 毕业（三）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C29-3/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C29-3/">
+        </link>
+        <updated>2020-11-29T02:19:48.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《未尽之意》第二十九章 毕业（二）]]></title>
+        <id>https://akino2020.github.io/post/WJZY-C29-2/</id>
+        <link href="https://akino2020.github.io/post/WJZY-C29-2/">
+        </link>
+        <updated>2020-11-29T02:13:39.000Z</updated>
     </entry>
 </feed>
