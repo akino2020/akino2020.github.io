@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://akino2020.github.io</id>
-    <title>未尽之意小说连载</title>
-    <updated>2021-02-03T08:20:56.611Z</updated>
+    <title>未尽之意</title>
+    <updated>2021-02-03T08:23:56.645Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://akino2020.github.io"/>
     <link rel="self" href="https://akino2020.github.io/atom.xml"/>
     <subtitle>荒唐喜乐皆是过往</subtitle>
     <logo>https://akino2020.github.io/images/avatar.png</logo>
     <icon>https://akino2020.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 未尽之意小说连载</rights>
+    <rights>All rights reserved 2021, 未尽之意</rights>
     <entry>
         <title type="html"><![CDATA[《未尽之意》尾声（三）]]></title>
         <id>https://akino2020.github.io/post/WJZY-WS-3/</id>
